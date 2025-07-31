@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #000;
+}
+#contenedor{
+	width: 750px;
+	height: 750px;
+	margin: auto;
+	background: white;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+header{
+	width: 750px;
+	height: 250px;
+	background: yellow;
+	margin-top: 10px;
+}
+#banner{
+	width: 500px;
+	height: 250px;
+	background: purple;
+	margin: auto;
+}
+
+nav{
+	width: 750px;
+	height: 50px;
+	background: blue;
+	margin-top: 10px;
+}
+/*para eliminar los puntos y espacios*/
+nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+/*Para que sea flotante a izquierda */
+nav ul li{
+	float: left;
+}
+nav a{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	display: block;
+	padding: 12px;
+}
+main{
+	width: 750px;
+	height: 400px;
+	background: green;
+	margin-top: 10px;
+}
+#left-izquierda{
+	width: 150px;
+	height: 400px;
+	background: red;
+	float: left;
+}
+article{
+	width: 500px;
+	height: 400px;
+	float: left;
+	background: lightblue;
+	margin: auto;
+}
+#right-derecha{
+	width: 100px;
+	height: 400px;
+	float: left;
+	background: #c0c0c0;
+}
+footer{
+	background: pink;
+	clear: both;
+}
